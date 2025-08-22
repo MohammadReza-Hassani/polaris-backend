@@ -1,7 +1,36 @@
-# .dockerignore
+# Node modules & dependencies
 node_modules
-dist
-.git
-Dockerfile
 npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist
+build
+.cache
+
+# Environment & config
 .env
+.env.*
+!.env.example
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Git / VCS
+.git
+.gitignore
+.gitattributes
+
+# Docker / CI
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Tests & coverage
+coverage
+*.spec.ts
+*.test.ts
+jest.config.js
