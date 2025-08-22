@@ -1,6 +1,6 @@
-﻿import {Location} from "@domain/models/entities";
-import {updateLocationRequestModel} from "@domain/models/reqeust/updateLocation.request";
-import {locationRequestModel} from "@domain/models/reqeust/location.request";
+﻿import {Location} from "src/domain/models/entities";
+import {updateLocationRequestModel} from "src/domain/models/reqeust/updateLocation.request";
+import {locationRequestModel} from "src/domain/models/reqeust/location.request";
 
 export const location_interface = 'location_interface'
 

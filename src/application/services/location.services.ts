@@ -1,10 +1,10 @@
 ﻿import {Inject, Injectable} from "@nestjs/common";
-import {ILocationRepository} from "@domain/Interfaces";
-import {location_interface} from "@domain/Interfaces/location.repo.interface";
-import {Location} from '@domain/models/entities';
-import {LocationDomainServices} from "@domain/services";
-import {updateLocationRequestModel} from "@domain/models/reqeust/updateLocation.request";
-import {locationRequestModel} from "@domain/models/reqeust/location.request";
+import {ILocationRepository} from "src/domain/Interfaces";
+import {location_interface} from "src/domain/Interfaces/location.repo.interface";
+import {Location} from 'src/domain/models/entities';
+import {LocationDomainServices} from "src/domain/services";
+import {updateLocationRequestModel} from "src/domain/models/reqeust/updateLocation.request";
+import {locationRequestModel} from "src/domain/models/reqeust/location.request";
 
 
 @Injectable()

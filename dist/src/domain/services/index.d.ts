@@ -1,5 +1,5 @@
 import { UserDomainServices } from "./userDomain.service";
-import { LocationDomainServices } from "@domain/services/locationDomain.service";
+import { LocationDomainServices } from "src/domain/services/locationDomain.service";
 export { UserDomainServices, LocationDomainServices };
 declare const _default: {
     UserDomainServices: typeof UserDomainServices;

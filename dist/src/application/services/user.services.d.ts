@@ -1,8 +1,8 @@
-import { IUserRepository } from "@domain/Interfaces";
-import { User } from '@domain/models/entities';
-import { UserDomainServices } from "@domain/services";
-import { RegisterRequestModel } from "@domain/models/reqeust/register.request";
-import { updateUserRequestModel } from "@domain/models/reqeust/updateUser.request";
+import { IUserRepository } from "src/domain/Interfaces";
+import { User } from 'src/domain/models/entities';
+import { UserDomainServices } from "src/domain/services";
+import { RegisterRequestModel } from "src/domain/models/reqeust/register.request";
+import { updateUserRequestModel } from "src/domain/models/reqeust/updateUser.request";
 import { JwtService } from "@nestjs/jwt";
 import { AuthService } from "../../auth.service";
 export declare class UserService {

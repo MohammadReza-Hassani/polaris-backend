@@ -1,6 +1,6 @@
-import { User } from "@domain/models/entities";
-import { RegisterRequestModel } from "@domain/models/reqeust/register.request";
-import { updateUserRequestModel } from "@domain/models/reqeust/updateUser.request";
+import { User } from "src/domain/models/entities";
+import { RegisterRequestModel } from "src/domain/models/reqeust/register.request";
+import { updateUserRequestModel } from "src/domain/models/reqeust/updateUser.request";
 export declare const user_interface = "user_interface";
 export interface IUserRepository {
     findById(id: number): Promise<User | null>;

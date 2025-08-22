@@ -1,10 +1,10 @@
 ﻿import {Injectable} from "@nestjs/common";
 import {InjectRepository} from "@nestjs/typeorm";
 import {Repository} from "typeorm";
-import {ILocationRepository} from "@domain/interfaces";
-import {Location} from "@domain/models/entities";
-import {locationRequestModel} from "@domain/models/reqeust/location.request";
-import {updateLocationRequestModel} from "@domain/models/reqeust/updateLocation.request";
+import {ILocationRepository} from "src/domain/interfaces";
+import {Location} from "src/domain/models/entities";
+import {locationRequestModel} from "src/domain/models/reqeust/location.request";
+import {updateLocationRequestModel} from "src/domain/models/reqeust/updateLocation.request";
 
 @Injectable()
 export class LocationRepository implements ILocationRepository {

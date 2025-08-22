@@ -2,11 +2,11 @@ import {Module} from '@nestjs/common';
 import {AppController} from './app.controller';
 import {AppService} from './app.service';
 import {TypeOrmModule} from '@nestjs/typeorm';
-import {DatabaseFactory} from '@infrastructure/database';
-import {Location, User} from '@domain/models/entities';
-import {UserModule} from '@interfaces/user/user.module';
-import {ConfigMagmentModule} from '@config/config.module';
-import {LocationModule} from "@interfaces/Location/location.module";
+import {DatabaseFactory} from 'src/infrastructure/database';
+import {Location, User} from 'src/domain/models/entities';
+import {UserModule} from 'src/interfaces/user/user.module';
+import {ConfigMagmentModule} from 'src/config/config.module';
+import {LocationModule} from "src/interfaces/Location/location.module";
 import {AuthModule} from "./auth.module";
 
 

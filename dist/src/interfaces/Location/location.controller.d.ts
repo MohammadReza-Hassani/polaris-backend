@@ -1,6 +1,6 @@
-import { LocationService } from "@application/services/location.services";
-import { locationRequestModel } from "@domain/models/reqeust/location.request";
-import { updateLocationRequestModel } from "@domain/models/reqeust/updateLocation.request";
+import { LocationService } from "src/application/services/location.services";
+import { locationRequestModel } from "src/domain/models/reqeust/location.request";
+import { updateLocationRequestModel } from "src/domain/models/reqeust/updateLocation.request";
 export declare class LocationController {
     private readonly locationService;
     constructor(locationService: LocationService);
