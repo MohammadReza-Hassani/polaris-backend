@@ -1,4 +1,5 @@
-﻿import {ApiProperty} from '@nestjs/swagger';
+﻿import { ApiProperty } from '@nestjs/swagger';
+import {locationRequestModel} from "@domain/Models/reqeust/location.request";
 
 export class LoginRequestModel {
     @ApiProperty({
