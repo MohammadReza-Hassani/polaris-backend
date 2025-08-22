@@ -1,6 +1,6 @@
 ﻿import {Inject, Injectable} from "@nestjs/common";
-import {Location, User} from "@domain/models/Entities";
-import {ILocationRepository, IUserRepository} from "@domain/Interfaces";
+import {Location} from "@domain/models/Entities";
+import {ILocationRepository} from "@domain/Interfaces";
 import {location_interface} from "@domain/Interfaces/location.repo.interface";
 import {updateLocationRequestModel} from "@domain/Models/reqeust/updateLocation.request";
 import {locationRequestModel} from "@domain/Models/reqeust/location.request";
