@@ -1,9 +1,9 @@
 import {Inject, Injectable} from "@nestjs/common";
-import {User} from "@domain/models/entities";
-import {IUserRepository} from "@domain/Interfaces";
-import {user_interface} from "@domain/Interfaces/user.repo.interface";
-import {RegisterRequestModel} from "@domain/Models/reqeust/register.request";
-import {updateUserRequestModel} from "@domain/Models/reqeust/updateUser.request";
+import {User} from "src/domain//models/entities";
+import {IUserRepository} from "src/domain//Interfaces";
+import {user_interface} from "src/domain//Interfaces/user.repo.interface";
+import {RegisterRequestModel} from "src/domain//Models/reqeust/register.request";
+import {updateUserRequestModel} from "src/domain//Models/reqeust/updateUser.request";
 
 @Injectable()
 export class UserDomainServices {

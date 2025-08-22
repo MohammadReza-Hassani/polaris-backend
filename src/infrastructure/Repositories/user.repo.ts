@@ -1,10 +1,10 @@
-import { Injectable } from "@nestjs/common";
-import { InjectRepository } from "@nestjs/typeorm";
-import { Not, Repository } from "typeorm";
-import { IUserRepository } from "@domain/interfaces";
-import { User } from "@domain/models/entities";
-import { RegisterRequestModel } from "@domain/Models/reqeust/register.request";
-import { updateUserRequestModel } from "@domain/Models/reqeust/updateUser.request";
+import {Injectable} from "@nestjs/common";
+import {InjectRepository} from "@nestjs/typeorm";
+import {Not, Repository} from "typeorm";
+import {IUserRepository} from "src/domain//interfaces";
+import {User} from "src/domain//models/entities";
+import {RegisterRequestModel} from "src/domain//Models/reqeust/register.request";
+import {updateUserRequestModel} from "src/domain//Models/reqeust/updateUser.request";
 
 @Injectable()
 export class UserRepository implements IUserRepository {

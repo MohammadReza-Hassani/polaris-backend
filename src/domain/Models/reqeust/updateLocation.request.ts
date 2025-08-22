@@ -1,5 +1,4 @@
-﻿import { ApiProperty } from '@nestjs/swagger';
-import {locationRequestModel} from "@domain/Models/reqeust/location.request";
+﻿import {ApiProperty} from '@nestjs/swagger';
 
 export class updateLocationRequestModel {
 

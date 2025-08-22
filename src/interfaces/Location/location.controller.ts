@@ -1,9 +1,9 @@
-﻿import { Controller, Get, Query, NotFoundException, Post, Body, UseGuards, Request } from '@nestjs/common';
-import { ApiBearerAuth, ApiBody, ApiOperation, ApiQuery, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { LocationService } from "@application/services/location.services";
-import { locationRequestModel } from "@domain/Models/reqeust/location.request";
-import { updateLocationRequestModel } from "@domain/Models/reqeust/updateLocation.request";
-import { AuthGuard } from "@nestjs/passport";
+﻿import {Body, Controller, Get, NotFoundException, Post, Query, Request, UseGuards} from '@nestjs/common';
+import {ApiBearerAuth, ApiBody, ApiOperation, ApiQuery, ApiResponse, ApiTags} from '@nestjs/swagger';
+import {LocationService} from "@application/services/location.services";
+import {locationRequestModel} from "src/domain//Models/reqeust/location.request";
+import {updateLocationRequestModel} from "src/domain//Models/reqeust/updateLocation.request";
+import {AuthGuard} from "@nestjs/passport";
 
 @ApiTags('Locations')
 @Controller('locations')

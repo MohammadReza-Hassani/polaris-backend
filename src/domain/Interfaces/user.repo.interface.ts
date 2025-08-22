@@ -1,6 +1,6 @@
-import {User} from "@domain/models/entities";
-import {RegisterRequestModel} from "@domain/Models/reqeust/register.request";
-import {updateUserRequestModel} from "@domain/Models/reqeust/updateUser.request";
+import {User} from "src/domain//models/entities";
+import {RegisterRequestModel} from "src/domain//Models/reqeust/register.request";
+import {updateUserRequestModel} from "src/domain//Models/reqeust/updateUser.request";
 
 export const user_interface = 'user_interface'
 
