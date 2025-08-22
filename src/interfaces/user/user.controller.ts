@@ -1,9 +1,9 @@
-import {Controller, Get, Query, NotFoundException, Post, Body, UseGuards} from '@nestjs/common';
+import {Body, Controller, Get, NotFoundException, Post, Query, UseGuards} from '@nestjs/common';
 import {ApiBearerAuth, ApiBody, ApiOperation, ApiQuery, ApiResponse, ApiTags} from '@nestjs/swagger';
 import {UserService} from "@application/services/user.services";
-import {LoginRequestModel} from "@domain/Models/reqeust/login.request";
-import {RegisterRequestModel} from "@domain/Models/reqeust/register.request";
-import {updateUserRequestModel} from "@domain/Models/reqeust/updateUser.request";
+import {LoginRequestModel} from "@domain/models/reqeust/login.request";
+import {RegisterRequestModel} from "@domain/models/reqeust/register.request";
+import {updateUserRequestModel} from "@domain/models/reqeust/updateUser.request";
 import {AuthGuard} from "@nestjs/passport";
 
 @ApiTags('Users') // Optional for Swagger documentation

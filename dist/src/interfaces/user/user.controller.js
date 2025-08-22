@@ -16,9 +16,9 @@ exports.UserController = void 0;
 const common_1 = require("@nestjs/common");
 const swagger_1 = require("@nestjs/swagger");
 const user_services_1 = require("../../application/services/user.services");
-const login_request_1 = require("../../domain/Models/reqeust/login.request");
-const register_request_1 = require("../../domain/Models/reqeust/register.request");
-const updateUser_request_1 = require("../../domain/Models/reqeust/updateUser.request");
+const login_request_1 = require("../../domain/models/reqeust/login.request");
+const register_request_1 = require("../../domain/models/reqeust/register.request");
+const updateUser_request_1 = require("../../domain/models/reqeust/updateUser.request");
 const passport_1 = require("@nestjs/passport");
 let UserController = class UserController {
     userService;

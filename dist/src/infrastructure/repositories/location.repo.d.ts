@@ -1,8 +1,8 @@
 import { Repository } from "typeorm";
 import { ILocationRepository } from "@domain/interfaces";
 import { Location } from "@domain/models/entities";
-import { locationRequestModel } from "@domain/Models/reqeust/location.request";
-import { updateLocationRequestModel } from "@domain/Models/reqeust/updateLocation.request";
+import { locationRequestModel } from "@domain/models/reqeust/location.request";
+import { updateLocationRequestModel } from "@domain/models/reqeust/updateLocation.request";
 export declare class LocationRepository implements ILocationRepository {
     private readonly locationRepo;
     constructor(locationRepo: Repository<Location>);

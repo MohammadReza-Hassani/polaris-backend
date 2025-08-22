@@ -2,8 +2,8 @@ import {Inject, Injectable} from "@nestjs/common";
 import {User} from "@domain/models/entities";
 import {IUserRepository} from "@domain/Interfaces";
 import {user_interface} from "@domain/Interfaces/user.repo.interface";
-import {RegisterRequestModel} from "@domain/Models/reqeust/register.request";
-import {updateUserRequestModel} from "@domain/Models/reqeust/updateUser.request";
+import {RegisterRequestModel} from "@domain/models/reqeust/register.request";
+import {updateUserRequestModel} from "@domain/models/reqeust/updateUser.request";
 
 @Injectable()
 export class UserDomainServices {

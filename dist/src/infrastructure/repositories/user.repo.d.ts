@@ -1,8 +1,8 @@
 import { Repository } from "typeorm";
 import { IUserRepository } from "@domain/interfaces";
 import { User } from "@domain/models/entities";
-import { RegisterRequestModel } from "@domain/Models/reqeust/register.request";
-import { updateUserRequestModel } from "@domain/Models/reqeust/updateUser.request";
+import { RegisterRequestModel } from "@domain/models/reqeust/register.request";
+import { updateUserRequestModel } from "@domain/models/reqeust/updateUser.request";
 export declare class UserRepository implements IUserRepository {
     private readonly userRepo;
     constructor(userRepo: Repository<User>);

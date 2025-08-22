@@ -1,7 +1,7 @@
 import { UserService } from "@application/services/user.services";
-import { LoginRequestModel } from "@domain/Models/reqeust/login.request";
-import { RegisterRequestModel } from "@domain/Models/reqeust/register.request";
-import { updateUserRequestModel } from "@domain/Models/reqeust/updateUser.request";
+import { LoginRequestModel } from "@domain/models/reqeust/login.request";
+import { RegisterRequestModel } from "@domain/models/reqeust/register.request";
+import { updateUserRequestModel } from "@domain/models/reqeust/updateUser.request";
 export declare class UserController {
     private readonly userService;
     constructor(userService: UserService);

@@ -1,7 +1,7 @@
 import { User } from "@domain/models/entities";
 import { IUserRepository } from "@domain/Interfaces";
-import { RegisterRequestModel } from "@domain/Models/reqeust/register.request";
-import { updateUserRequestModel } from "@domain/Models/reqeust/updateUser.request";
+import { RegisterRequestModel } from "@domain/models/reqeust/register.request";
+import { updateUserRequestModel } from "@domain/models/reqeust/updateUser.request";
 export declare class UserDomainServices {
     private readonly userRepo;
     constructor(userRepo: IUserRepository);

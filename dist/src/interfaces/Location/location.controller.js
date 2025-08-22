@@ -16,8 +16,8 @@ exports.LocationController = void 0;
 const common_1 = require("@nestjs/common");
 const swagger_1 = require("@nestjs/swagger");
 const location_services_1 = require("../../application/services/location.services");
-const location_request_1 = require("../../domain/Models/reqeust/location.request");
-const updateLocation_request_1 = require("../../domain/Models/reqeust/updateLocation.request");
+const location_request_1 = require("../../domain/models/reqeust/location.request");
+const updateLocation_request_1 = require("../../domain/models/reqeust/updateLocation.request");
 const passport_1 = require("@nestjs/passport");
 let LocationController = class LocationController {
     locationService;

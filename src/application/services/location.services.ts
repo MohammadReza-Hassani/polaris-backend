@@ -3,8 +3,8 @@ import {ILocationRepository} from "@domain/Interfaces";
 import {location_interface} from "@domain/Interfaces/location.repo.interface";
 import {Location} from '@domain/models/entities';
 import {LocationDomainServices} from "@domain/services";
-import {updateLocationRequestModel} from "@domain/Models/reqeust/updateLocation.request";
-import {locationRequestModel} from "@domain/Models/reqeust/location.request";
+import {updateLocationRequestModel} from "@domain/models/reqeust/updateLocation.request";
+import {locationRequestModel} from "@domain/models/reqeust/location.request";
 
 
 @Injectable()

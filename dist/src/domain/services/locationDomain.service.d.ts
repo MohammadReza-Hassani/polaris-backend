@@ -1,7 +1,7 @@
 import { Location } from "@domain/models/entities";
 import { ILocationRepository } from "@domain/Interfaces";
-import { updateLocationRequestModel } from "@domain/Models/reqeust/updateLocation.request";
-import { locationRequestModel } from "@domain/Models/reqeust/location.request";
+import { updateLocationRequestModel } from "@domain/models/reqeust/updateLocation.request";
+import { locationRequestModel } from "@domain/models/reqeust/location.request";
 export declare class LocationDomainServices {
     private readonly locationRepo;
     constructor(locationRepo: ILocationRepository);
