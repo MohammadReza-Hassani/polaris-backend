@@ -3,7 +3,7 @@ import {AppController} from './app.controller';
 import {AppService} from './app.service';
 import {TypeOrmModule} from '@nestjs/typeorm';
 import {DatabaseFactory} from 'src/infrastructure/database';
-import {Location, User} from 'src/domain/models/entities';
+import {Location, User} from './domain/Models/Entities';
 import {UserModule} from 'src/interfaces/user/user.module';
 import {ConfigMagmentModule} from 'src/config/config.module';
 import {LocationModule} from "src/interfaces/Location/location.module";

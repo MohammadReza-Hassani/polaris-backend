@@ -1,9 +1,9 @@
 ﻿import {Inject, Injectable} from "@nestjs/common";
-import {Location} from "src/domain/models/entities";
+import {Location} from "../Models/Entities";
 import {ILocationRepository} from "src/domain/Interfaces";
 import {location_interface} from "src/domain/Interfaces/location.repo.interface";
-import {updateLocationRequestModel} from "src/domain/models/reqeust/updateLocation.request";
-import {locationRequestModel} from "src/domain/models/reqeust/location.request";
+import {updateLocationRequestModel} from "src/domain/Models/reqeust/updateLocation.request";
+import {locationRequestModel} from "src/domain/Models/reqeust/location.request";
 
 @Injectable()
 export class LocationDomainServices {

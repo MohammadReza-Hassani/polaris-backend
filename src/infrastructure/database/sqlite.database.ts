@@ -1,5 +1,5 @@
 import {TypeOrmModuleOptions} from "@nestjs/typeorm";
-import {User} from "src/domain/models/entities";
+import {User} from "../../domain/Models/Entities";
 
 export class SQLiteDatabase {
     getConnection(): TypeOrmModuleOptions  {

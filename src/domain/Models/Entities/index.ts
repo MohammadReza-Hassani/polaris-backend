@@ -1,5 +1,5 @@
-import { User } from "./user.entity"
-import { Location } from "./location.entity"
+import {User} from "src/domain/Models/Entities/user.entity"
+import {Location} from "src/domain/Models/Entities/location.entity"
 
 export {
     User,

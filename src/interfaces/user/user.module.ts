@@ -1,11 +1,11 @@
 import {Module} from "@nestjs/common";
 import {TypeOrmModule} from "@nestjs/typeorm";
 import {UserController} from "./user.controller";
-import {UserService} from "src/application/index";
-import {user_interface} from "src/domain/interfaces/user.repo.interface";
+import {UserService} from "../../application";
+import {user_interface} from "../../domain/Interfaces/user.repo.interface";
 import {UserDomainServices} from "src/domain/services";
-import {UserRepository} from "src/infrastructure/repositories/user.repo";
-import {User} from "src/domain/models/entities";
+import {UserRepository} from "../../infrastructure/Repositories/user.repo";
+import {User} from "../../domain/Models/Entities";
 import {AuthModule} from "../../auth.module";
 
 

@@ -1,10 +1,10 @@
 import {Inject, Injectable} from "@nestjs/common";
 import {IUserRepository} from "src/domain/Interfaces";
 import {user_interface} from "src/domain/Interfaces/user.repo.interface";
-import {User} from 'src/domain/models/entities';
+import {User} from '../../domain/Models/Entities';
 import {UserDomainServices} from "src/domain/services";
-import {RegisterRequestModel} from "src/domain/models/reqeust/register.request";
-import {updateUserRequestModel} from "src/domain/models/reqeust/updateUser.request";
+import {RegisterRequestModel} from "src/domain/Models/reqeust/register.request";
+import {updateUserRequestModel} from "src/domain/Models/reqeust/updateUser.request";
 import {JwtService} from "@nestjs/jwt";
 import * as bcrypt from 'bcrypt';
 import {AuthService} from "../../auth.service";
