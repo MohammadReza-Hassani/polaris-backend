@@ -1,7 +1,7 @@
 import {Inject, Injectable} from "@nestjs/common";
 import {IUserRepository} from "@domain/Interfaces";
 import {user_interface} from "@domain/Interfaces/user.repo.interface";
-import {User} from '@domain/models/Entities';
+import {User} from '@domain/models/entities';
 import {UserDomainServices} from "@domain/services";
 import {RegisterRequestModel} from "@domain/Models/reqeust/register.request";
 import {updateUserRequestModel} from "@domain/Models/reqeust/updateUser.request";

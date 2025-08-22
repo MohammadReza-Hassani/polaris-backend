@@ -1,4 +1,4 @@
-import {User} from "@domain/models/Entities";
+import {User} from "@domain/models/entities";
 import {RegisterRequestModel} from "@domain/Models/reqeust/register.request";
 import {updateUserRequestModel} from "@domain/Models/reqeust/updateUser.request";
 

@@ -1,6 +1,7 @@
-﻿import {Location, User} from "@domain/models/Entities";
+﻿import {Location} from "@domain/models/entities";
 import {updateLocationRequestModel} from "@domain/Models/reqeust/updateLocation.request";
 import {locationRequestModel} from "@domain/Models/reqeust/location.request";
+
 export const location_interface = 'location_interface'
 
 
