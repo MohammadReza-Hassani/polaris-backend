@@ -1,0 +1,7 @@
+export declare class User {
+    id: number;
+    username: string;
+    password: string;
+    phone: string;
+    accessId: number;
+}
