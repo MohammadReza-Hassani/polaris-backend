@@ -12,5 +12,8 @@ export class User {
   password: string;
 
   @Column()
-  email: string;
+  phone: string;
+
+  @Column()
+  accessId: number;
 }

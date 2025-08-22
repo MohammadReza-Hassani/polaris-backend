@@ -5,14 +5,20 @@ export class PostgresDatabase {
     getConnection(): TypeOrmModuleOptions  {
         return {
             type: 'postgres',
-            host: process.env.DB_HOST || 'localhost',
-            port: parseInt(process.env.DB_PORT ?? "5432"),
-            username: process.env.DB_USERNAME || 'user',
-            password: process.env.DB_PASSWORD || 'password',
-            database: process.env.DB_NAME || 'my_database',
+            host: 'ep-little-dream-ad1jtv04-pooler.c-2.us-east-1.aws.neon.tech',
+            port: 5432,
+            username: 'neondb_owner',
+            password: 'npg_auVm2SGK7pCj',
+            database: 'polarisdb',
             entities: [],
             synchronize: false, // Set to false in production
-            logging: false, // Disable logging in production
+            logging: false, // Disable logging in production,
+            ssl: {
+                rejectUnauthorized: false, // tells pg to accept Neon’s TLS cert
+            },
+            extra: {
+                sslmode: 'require', // explicitly tell Neon to require SSL
+            }
         }
     }
 }

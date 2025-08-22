@@ -1,9 +1,12 @@
 import { UserService } from "./services/user.services";
+import { LocationService } from "./services/location.services";
 
 export {
-    UserService
+    UserService,
+    LocationService
 }
 
 export default {
-    UserService
+    UserService,
+    LocationService
 }

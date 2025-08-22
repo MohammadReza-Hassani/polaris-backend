@@ -1,7 +1,8 @@
 export class UserResponseModel {
+    id: number
     username: string
-    password: string
-    email: string
+    phone: string
+    accessId: number
 }
 
 export class UsersResponseModel {

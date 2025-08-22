@@ -1,9 +1,12 @@
 import { User } from "./user.entity"
+import { Location } from "./location.entity"
 
 export {
-    User
+    User,
+    Location
 }
 
 export default {
-    User
+    User,
+    Location
 }
